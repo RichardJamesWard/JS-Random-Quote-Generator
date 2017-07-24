@@ -189,7 +189,6 @@ function printQuote () {
 				if (quotes.year) {quoteString += `<span class="year">${quotes.year}</span></p>`}
 				else {quoteString += '</p>'};
 					quoteContainer.innerHTML = quoteString;
-					console.log(quoteString);
 
 					//assigns random color value to document background color 
 					document.body.style.backgroundColor = getRandomColor ();
