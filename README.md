@@ -7,7 +7,8 @@ In this project, you'll create an app that displays random famous quotes each ti
 
 You'll need to use your knowledge of basic JavaScript syntax, including variables, loops and object literals, to complete this project.
 
-This project is a fun and effective way for you to practice fundamental JavaScript skills. It also gives you a simple interactive portfolio piece to show off your understanding of JavaScript.
+This project is a fun and effective way for you to practice fundamental JavaScript skills. It also gives you a simple interactive portfolio piece to show off your understanding of JavaScript. 
+
 
 # Project Requirements
 
@@ -16,9 +17,9 @@ This project is a fun and effective way for you to practice fundamental JavaScri
 - [x] Array contains at least 5 quote objects
 ## Quote Object
 - [x] Objects in array include quote and source properties. If known, citation and date properties are present
-## `getRandomQuote` function
+## getRandomQuote function
 - [x] Function is named getRandomQuoteand returns a random object from the quotes array
-## `printQuote` function
+## printQuote function
 - [x] Function named printQuote calls the randomQuote function
 - [x] Function prints the quote to the page using the template supplied in the project instructions
 ## Code comments
@@ -28,7 +29,8 @@ This project is a fun and effective way for you to practice fundamental JavaScri
 # View Project
 [Live Demo]( https://richardjamesward.github.io/JS-Random-Quote-Generator/) of this project for peer review.
 
-#Appraiser Comments
+
+# Appraiser Comments
 Awesome work, Richard! Your project looks great and after seeing so many of this, I appreciate you changing the styling up.
 
 Nice job ensuring that your function returns the entire quote object and then adding in those extra features! I added a hint in the individual rubric if you want to try creating a non-repeating randomizer.
