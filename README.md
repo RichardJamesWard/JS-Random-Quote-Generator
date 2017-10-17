@@ -1,5 +1,5 @@
 # random-quote-generator
-Treehouse Techdegree Project #1 - Random Quote Generator
+### Treehouse Techdegree Project #1 - Random Quote Generator
 
 In this project, you'll create an app that displays random famous quotes each time a button is clicked. You can display a quote from a famous athlete, politician, or historical figure:
 
@@ -12,17 +12,17 @@ This project is a fun and effective way for you to practice fundamental JavaScri
 
 # Project Requirements
 
-## Create Array of Objects
+### Create Array of Objects
 - [x] Array of objects is named quotes
 - [x] Array contains at least 5 quote objects
-## Quote Object
+### Quote Object
 - [x] Objects in array include quote and source properties. If known, citation and date properties are present
-## getRandomQuote function
+### getRandomQuote function
 - [x] Function is named getRandomQuoteand returns a random object from the quotes array
-## printQuote function
+### printQuote function
 - [x] Function named printQuote calls the randomQuote function
 - [x] Function prints the quote to the page using the template supplied in the project instructions
-## Code comments
+### Code comments
 - [x] Comments are included in the code.
 
 
