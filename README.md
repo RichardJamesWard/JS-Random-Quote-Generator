@@ -31,7 +31,7 @@ This project is a fun and effective way for you to practice fundamental JavaScri
 
 
 # Appraiser Comments
-Awesome work, Richard! Your project looks great and after seeing so many of this, I appreciate you changing the styling up.
+Awesome work, Richard! Your project looks great and after seeing so many of these, I appreciate you changing the styling up.
 
 Nice job ensuring that your function returns the entire quote object and then adding in those extra features! I added a hint in the individual rubric if you want to try creating a non-repeating randomizer.
 
