@@ -9,7 +9,7 @@ You'll need to use your knowledge of basic JavaScript syntax, including variable
 
 This project is a fun and effective way for you to practice fundamental JavaScript skills. It also gives you a simple interactive portfolio piece to show off your understanding of JavaScript.
 
-#Project Requirements
+# Project Requirements
 
 ## Create Array of Objects
 - [x] Array of objects is named quotes
