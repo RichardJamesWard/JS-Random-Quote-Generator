@@ -175,7 +175,7 @@ function getRandomColor () {
 	var red = Math.floor(Math.random() * 256 );
 	var green = Math.floor(Math.random() * 256 );
 	var blue = Math.floor(Math.random() * 256 );
-	 var randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+	 var randomColor = `rgb(${red},${green},${blue})`;
 	return randomColor;
 }
 
