@@ -1,6 +1,6 @@
 
 //Object Array to hold quotes, sources, citaitons and years
-var quotes = [
+const quotes = [
 	{
 	quote: "Be who you are and say what you feel, because those who mind don't matter and those who matter don't mind.",
 	source: "Dr. Seuss"
@@ -172,10 +172,10 @@ function getRandomQuote () {
 
 //Function to select random rgb color value
 function getRandomColor () {
-	var red = Math.floor(Math.random() * 256 );
-	var green = Math.floor(Math.random() * 256 );
-	var blue = Math.floor(Math.random() * 256 );
-	 var randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+	var [red, green, blue] = [Math.random() * 256, Math.random() * 256, Math.random() * 256 ];
+	
+	
+	 var randomColor = 'rgb(' + Math.floor(red) + ',' + Math.floor(green) + ',' + Math.floor(blue) + ')';
 	return randomColor;
 }
 
