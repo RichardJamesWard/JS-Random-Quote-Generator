@@ -4,13 +4,18 @@ body {
   color: white;
   font-family: 'Amatic SC', cursive;
   background-color: rgb(95,207,128);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 #quote-box {
-  position: absolute;
+  /* position: absolute;
   top: 14%;
   left: 10%;
-  right: 10%;
+  right: 10%; */
   width: 80%;
+  margin: 0 auto;
   line-height: .5;
 }
 .quote {
@@ -62,12 +67,15 @@ body {
 
 #loadQuote {
   font-size: 2.5rem;;
-  position: fixed;
+  /* position: fixed; */
   width: 7em;
-  display: inline-block;
-  left: 50%;
-  margin-left: -6em;
-  bottom: 150px;
+  /* display: inline-block; */
+  /* left: 50%; */
+  /* margin-left: -6em; */
+  /* bottom: 150px; */
+  display: grid;
+  place-content: center;
+  margin: 0 auto;
   border-radius: 4px;
   border: 2px solid #fff;
   color: #fff;
