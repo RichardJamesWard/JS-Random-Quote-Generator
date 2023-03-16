@@ -171,13 +171,23 @@ function getRandomQuote () {
 }	
 
 //Function to select random rgb color value
-function getRandomColor () {
-	var red = Math.floor(Math.random() * 256 );
-	var green = Math.floor(Math.random() * 256 );
-	var blue = Math.floor(Math.random() * 256 );
-	 var randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
-	return randomColor;
-}
+// function getRandomColor () {
+// 	var red = Math.floor(Math.random() * 256 );
+// 	var green = Math.floor(Math.random() * 256 );
+// 	var blue = Math.floor(Math.random() * 256 );
+// 	 var randomColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
+// 	return randomColor;
+// }
+const getRandomNumber = (limit) => {
+  return Math.floor(Math.random() * limit);
+};
+
+function setBackgroundColor () {
+  const h = getRandomNumber(360);
+  const randomColor = `hsl(${h}deg, 50%, 10%)`;
+  
+  document.body.style.backgroundColor = randomColor;
+};
 
 //Function to call the getRandomQuote function and stores the returned quote object in a variable
 //Constructs a string containing the different properties of the quote object 
@@ -191,7 +201,7 @@ function printQuote () {
 					quoteContainer.innerHTML = quoteString;
 
 					//assigns random color value to document background color 
-					document.body.style.backgroundColor = getRandomColor ();
+					document.body.style.backgroundColor = setBackgroundColor();
 }
 
 //Quote automatically refreshes every 15 seconds
