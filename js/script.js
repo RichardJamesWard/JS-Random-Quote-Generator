@@ -191,7 +191,7 @@ function getRandomQuote() {
     quotes = quoteArr;
     quoteArr = [];
   }
-  return splicedQuote; // changed "quotes[theQuote]" to "splicedQuote"
+  return splicedQuote;
 }
 
 //Function to select random rgb color value
