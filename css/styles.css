@@ -1,40 +1,49 @@
 body {
   /*text-align: center;*/
   background-size: cover;
-  color: white;
-  font-family: 'Amatic SC', cursive;
-  background-color: rgb(95,207,128);
+  font-family: "Amatic SC", cursive;
+  background-color: rgb(95, 207, 128);
 }
+
+.light {
+  color: white;
+}
+
+.dark {
+  color: black;
+}
+
 #quote-box {
   position: absolute;
   top: 14%;
   left: 10%;
   right: 10%;
   width: 80%;
-  line-height: .5;
+  line-height: 0.5;
 }
 .quote {
   font-size: 6rem;
   font-weight: 400;
   line-height: 1.1;
-  text-shadow: 0 1px 1px rgba(0,0,0, .8);
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
   position: relative;
   margin: 0;
-  } 
-.quote:before, .quote:after {
+}
+.quote:before,
+.quote:after {
   font-size: 6rem;
   line-height: 2.5rem;
   position: absolute;
 }
 .quote:before {
   content: "“";
-  top: .25em;
-  left: -.5em;
+  top: 0.25em;
+  left: -0.5em;
 }
 .quote:after {
   content: "”";
-  bottom: -.1em;
-  margin-left: .1em;
+  bottom: -0.1em;
+  margin-left: 0.1em;
   position: absolute;
 }
 .source {
@@ -61,7 +70,7 @@ body {
 }
 
 #loadQuote {
-  font-size: 2.5rem;;
+  font-size: 2.5rem;
   position: fixed;
   width: 7em;
   display: inline-block;
@@ -69,14 +78,13 @@ body {
   margin-left: -6em;
   bottom: 150px;
   border-radius: 4px;
-  border: 2px solid #fff;
-  color: #fff;
-  background-color: rgba(255,255,255, 0);
+  border: 2px solid;
+  background-color: rgba(255, 255, 255, 0);
   padding: 15px 0;
-  transition: .5s ;
+  transition: 0.5s;
 }
 #loadQuote:hover {
-  background-color: rgba(255,255,255,.25);
+  background-color: rgba(255, 255, 255, 0.25);
 }
 #loadQuote:focus {
   outline: none;
@@ -86,7 +94,8 @@ body {
   .quote {
     font-size: 2.5rem;
   }
-  .quote:before, .quote:after {
+  .quote:before,
+  .quote:after {
     font-size: 3rem;
   }
   .source {
